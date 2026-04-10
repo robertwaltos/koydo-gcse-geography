@@ -1,0 +1,45 @@
+// GCSE Geography Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM192",
+  slug: "gcse-geography",
+  name: "GCSE Geography",
+  fullName: "GCSE Geography",
+  alias: "GCSE Geography",
+  family: "GCSE",
+  category: "School exams",
+  subcategory: "Subject exam",
+  country: "United Kingdom",
+  region: "EMEA",
+  languages: ["English"],
+  estimatedAnnualTakers: "high",
+  testingWindow: "May-Jun",
+  schedulePattern: "Annual",
+  ageGroup: "14-16",
+  targetUser: "School student",
+  delivery: "Paper-based",
+  questionTypes: ["MCQ","structured response","essays"],
+  adaptivity: "Linear",
+  sections: "3 papers",
+  scoringMode: "Grade 1-9",
+  essayOrSpeaking: "Some writing",
+  ipRisk: "Low",
+  contentReuse: "social_science",
+  uiEngine: "paper_objective_plus_written",
+  monetizationPotential: "Medium",
+  tier: "Tier 5",
+  launchWave: "Wave 7",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "Low",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
